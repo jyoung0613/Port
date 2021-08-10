@@ -8,7 +8,7 @@ A website that has my Personal Portfolio.
 * CSS
 
 ## Website
-https://jyoung0613.github.io/port
+https://jyoung0613.github.io/Port/
 
 ## Contribution
 Made with ❤️ by John Young
