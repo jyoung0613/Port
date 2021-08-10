@@ -358,6 +358,7 @@ section {
         width: 100%;
     }
 }
+
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
 
