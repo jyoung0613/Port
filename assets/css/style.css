@@ -43,7 +43,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 header nav {
@@ -62,7 +62,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4)
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 header nav ul li a:hover {
@@ -206,7 +206,7 @@ section {
 }
 
 .setskill-text p {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 /* This is my Resume section */
@@ -296,7 +296,7 @@ section {
 
 .reach-out-form button:hover {
      color: var(--secondary-color);
-     background: var(--primary-color)
+     background: var(--primary-color);
 }
 
 .reach-out-info a {
@@ -346,7 +346,7 @@ section {
     }
 
     .money-maker {
-        flex: 0 70%
+        flex: 0 70%;
     }
 
     .reach-out-info iframe{
@@ -418,6 +418,6 @@ section {
     }
 
     .reach-out-form {
-        order: 3
+        order: 3;
     }
 }
