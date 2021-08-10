@@ -160,3 +160,68 @@ section {
 }
 /* About Me Section End */
 
+/* This is my Skills section */
+.can-do {
+    background: var(--tertiary-color);
+}
+
+.setskill {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setskill:not(:last-child) {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.setskill h3 {
+    color: var(--secondary-color);
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+.setskill-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.setskill-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.setskill-img img {
+    max-width: 100%;
+}
+
+.setskill-text {
+    flex: 12;
+}
+
+.setskill-text p {
+    color: var(--secondary-color)
+}
+
+/* This is my Resume section */
+.money-maker {
+    margin: 20px;
+    background: lightgrey;
+    color: var(--primary-color);
+    flex: 1;
+}
+
+.money-maker img {
+    width: 100%;
+}
+
+.money-maker p {
+    font-size: 17px;
+}
+/* End of Resume section */
