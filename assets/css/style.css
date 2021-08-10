@@ -225,3 +225,94 @@ section {
     font-size: 17px;
 }
 /* End of Resume section */
+
+/* Contact Me Section */
+.reach-out {
+    background: var(--primary-color);
+}
+
+.reach-out h2 {
+    color: var(--secondary-color);
+}
+
+.reach-out-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reach-out-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.reach-out-info iframe {
+    height: 400px;
+}
+
+.reach-out-info div {
+    color: white;
+}
+
+.reach-out-info h3 {
+    color: var(--tertiary-color);
+}
+
+.reach-out-info p, .reach-out-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-size: normal;
+}
+
+.reach-out-form input, .reach-out-form textarea {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid var(--primary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--primary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 15px; 
+}
+
+.reach-out-form input:focus, .reach-out-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;  
+}
+
+.reach-out-form button {
+    width: 100%;
+    border: none;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.reach-out-form button:hover {
+     color: var(--secondary-color);
+     background: var(--primary-color)
+}
+
+.reach-out-info a {
+    color: var(--tertiary-color);
+}
+/* Contact Me Section End */
+
+/* Utilities */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
