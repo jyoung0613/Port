@@ -43,7 +43,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 header nav {
@@ -62,7 +62,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4)
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 header nav ul li a:hover {
@@ -206,7 +206,7 @@ section {
 }
 
 .setskill-text p {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 /* This is my Resume section */
@@ -296,7 +296,7 @@ section {
 
 .reach-out-form button:hover {
      color: var(--secondary-color);
-     background: var(--primary-color)
+     background: var(--primary-color);
 }
 
 .reach-out-info a {
@@ -315,4 +315,109 @@ section {
 
 .flex-row {
     display: flex;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    } 
+    
+    .reach-out-form {
+        width: 100%;
+    }
+
+    .money-maker {
+        flex: 0 70%;
+    }
+
+    .reach-out-info iframe{
+        flex: 1 100%;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    section {
+        padding: 30px 15px;
+    }
+
+    .setskill h3 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .setskill-info {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .setskill-img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .setskill-text {
+        flex: 100%;
+    }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    .reach-out-form button {
+        width: 100%;
+    }
+
+    .section-title {
+        width: 95%;
+    }
+
+    .your-star p {
+        width: 100%;
+    }
+
+    .to-my-future {
+        flex: 0 100%;
+    }
+
+    .reach-out-info {
+        text-align: center;
+    }
+
+    .reach-out-info > * {
+        flex: 0 100%;
+    }
+
+    .reach-out-form {
+        order: 3;
+    }
 }
