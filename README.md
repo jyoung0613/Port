@@ -8,7 +8,7 @@
 #* CSS
 
 ## Website
-https://jyoung0613.github.io/Port/
+https://jyoung0613.github.io/Portfolio/
 
 ## Contribution
 #Made with ❤️ by John Young
